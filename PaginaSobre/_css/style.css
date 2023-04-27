@@ -1,0 +1,57 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.sobre{
+    padding: 20px;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(28, 57, 155),rgb(71, 105, 218),rgb(99, 131, 235)  );
+    color: white;
+}
+
+.alinhadoAoCentro{
+    text-align: center;
+    padding: 10px;
+}
+
+.alinhadoTextoSobre{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.coluna{
+    float: left;
+    width: 33%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.cartao{
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2 );
+    margin: 8px;
+    font-size: 16px;
+}
+
+.imagemDeIdentificacao{
+    width: 100%;
+    height: 450px;
+}
+
+.titulacao{
+    color: grey; 
+}
+
+.botao{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
